@@ -23,6 +23,7 @@
 		299C1369271BEBF200284BCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		299C136C271BEBF200284BCB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		299C1373271BEF7C00284BCB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		29EE27C32768AAAE00EAF9AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		55ED74306683BAE8890BC66D /* Pods-benjominiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-benjominiOS.release.xcconfig"; path = "Target Support Files/Pods-benjominiOS/Pods-benjominiOS.release.xcconfig"; sourceTree = "<group>"; };
 		A17E5A77F00B51816FD9547C /* Pods_benjominiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_benjominiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -60,6 +61,7 @@
 		299C1364271BEBEB00284BCB /* benjominiOS */ = {
 			isa = PBXGroup;
 			children = (
+				29EE27C32768AAAE00EAF9AD /* Info.plist */,
 				299C1365271BEBEB00284BCB /* benjominiOSApp.swift */,
 				299C1367271BEBEB00284BCB /* ContentView.swift */,
 				299C1369271BEBF200284BCB /* Assets.xcassets */,
@@ -342,9 +344,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"benjominiOS/Preview Content\"";
-				DEVELOPMENT_TEAM = VDHQW9S247;
+				DEVELOPMENT_TEAM = M3ZW93LDK8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = benjominiOS/Info.plist;
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = aaaa;
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = aaaa;
 				INFOPLIST_KEY_NSLocationUsageDescription = aaaa;
@@ -360,7 +363,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = MasudaKeisuke.benjominiOS;
+				PRODUCT_BUNDLE_IDENTIFIER = "BABA-KENSUKE.benjominiOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -377,9 +380,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"benjominiOS/Preview Content\"";
-				DEVELOPMENT_TEAM = VDHQW9S247;
+				DEVELOPMENT_TEAM = M3ZW93LDK8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = benjominiOS/Info.plist;
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = aaaa;
 				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = aaaa;
 				INFOPLIST_KEY_NSLocationUsageDescription = aaaa;
@@ -395,7 +399,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = MasudaKeisuke.benjominiOS;
+				PRODUCT_BUNDLE_IDENTIFIER = "BABA-KENSUKE.benjominiOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
